@@ -1,0 +1,30 @@
+/* Hoja de estilos de poema*/
+body {
+    background-color: #FFEEFF;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+div {
+    border: 5px solid pink;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+#poema1 {
+    background-color: lightyellow;
+}
+#poema2 {
+    background-color: lightblue;
+}
+#poema3 {
+    background-color: lightgreen;
+}
+.autor {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+.obras {
+    text-decoration: underline;
+}

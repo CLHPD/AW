@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Ejercicio de selectores</title>
+    <link rel="stylesheet" type="text/css" href="estilos4.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="nombre">Introduce tu nombre:</label>
+        <input type="text" name="nombre">
+        <br>
+        <label for="apellidos">Introduce tus apellidos:</label>
+        <input type="text" name="apellidos">
+        <br>
+        <label for="direccion">Introduce tu direccion:</label>
+        <input type="text" name="direccion">
+    </fieldset>
+    <fieldset>
+        <legend>Datos Academicos</legend>
+        <label for="lista">Selecciona tu centro de Zaragoza</label>
+        <select id="lista" name="lista">
+            <option value="enlaces">CPIF Los Enlaces</option>
+            <option value="santiago">IES Santiago Hernandez</option>
+        </select>
+        <br>
+        <label for="formativo">Tipo de ciclo formativo:</label>
+        <input type="radio" name="ciclo" value="1" checked>
+        <label for="GM">Grado Medio</label>
+        <input type="radio" name="ciclo" value="2">
+        <label for="GS">Grado Superior</label>
+        </select>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejer3</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Ejercicio para formularios</h1>
+        <form>
+            <fieldset>
+                <legend>primera parte</legend>
+                <label for="nombre">Nombre*:</label>
+                <input type="text" name="nombre" required>
+                <br>
+                <label for="email">email*:</label>
+                <input type="email" name="email" required>
+                <br>
+                <label for="web">Sitio web:</label>
+                <input type="url" name="web">
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" rows="10" cols="40" placeholder="Escriba algo"></textarea>
+                <br>
+                <label for="Fnacimiento">Fecha de nacimiento</label>
+                <input type="date" name="Fnacimiento">
+                <br>
+                <label for="numero">Numero (min -10 max 10)</label>
+                <input type="number" name="numero" min="-10" max="10">
+                <br> 
+            </fieldset>
+            <fieldset>
+                <legend>segunda parte</legend>
+                <label for="Sexo">Sexo</label>
+                <br>
+                <input type="radio" name="Sexo" value="chico" checked>
+                <label for="sexo">Chico</label><br>
+                <input type="radio" name="Sexo" value="chica">
+                <label for="sexo">Chica</label>
+                <br>
+                <label for="Lenguaje*">Lenguajes</label>
+                <br>
+                <input type="checkbox" name="Lenguaje" value="css">css 
+                <br>
+                <input type="checkbox" name="Lenguaje" value="html">html
+                <br>
+                <label for="Lenguajes">Lenguajes</label>
+                <select id="Lenguajes" name="Lenguajes" size="4" required>
+                    <option value="css">css</option>
+                    <option value="html">html</option>
+                    <option value="javascript">javascript</option>
+                    <option value="php">php</option>
+                </select>
+                <br>
+                <label for="favcolor">Color favorito</label>
+                <input type="color" name="favcolor">
+            </fieldset>
+            <input type="submit" value="Enviar mensaje">
+            <input type="reset" value="Borrar">
+        </form>
+    </body>
+</html>

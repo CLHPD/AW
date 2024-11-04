@@ -1,0 +1,18 @@
+label {
+    font: 12px Arial;
+}
+fieldset {
+    border: 5px solid black;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 4px;
+}
+input[type="text"] {
+    margin: 5px;
+}
+select:focus {
+    border: 5px solid blue;
+}
+input[type="text"]:focus {
+    border: 5px solid blue;
+}

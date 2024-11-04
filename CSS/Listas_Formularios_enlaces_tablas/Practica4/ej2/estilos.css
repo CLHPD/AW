@@ -1,0 +1,23 @@
+ul.menu {
+    width: 200px;
+    list-style: none;
+    border: 2px solid black;
+    border-bottom: none;
+    padding: 0;
+}
+ul.menu li {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+}
+ul.menu li:hover {
+    background-color: grey;
+}
+ul.horizontal {
+    width: 500px;
+    border: none;
+}
+ul li.horizontal {
+    border: none;
+    display: inline;
+}

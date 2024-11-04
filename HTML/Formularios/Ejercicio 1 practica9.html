@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejer1</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Hoja de inscripcion<br>en los ciclos formativos de grado superior</h1>
+        <form>
+            <table>
+                    <tr>
+                        <td>
+                            <label for="Apellidos">Apellidos:</label>
+                            <br>
+                            <input type="text" name="Apellidos" required>
+                        </td>
+                        <td>
+                            <label for="Nombre">Nombre:</label>
+                            <br>
+                            <input type="text" name="Nombre" size="17" required>
+                        </td>
+                        <td>
+                            <label for="DNI">DNI:</label>
+                            <br>
+                            <input type="text" name="DNI" size="9" maxlength="9">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Nacido">Nacido/a en</label>
+                            <br>
+                            <input list="Lugar" name="Nacido" size="8">
+                            <datalist id="Lugar">
+                                <option value="Madrid">
+                                <option value="Aragón">
+                                <option value="Cataluña">
+                                <option value="Galicia">
+                                <option value="Asturias">
+                                <option value="Navarra">
+                            </datalist>
+                        </td>
+                        <td>
+                            <label for="Provincias">Provincia</label>
+                            <br>
+                            <select id="Provincias" name="Provincias">
+                                <option value="Zaragoza">Zaragoza</option>
+                                <option value="Teruel">Teruel</option>
+                                <option value="Huesca">Huesca</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="Fnacimiento">Fecha de nacimiento (dd/mm/aaaa)</label>
+                            <br>
+                            <input type="date" name="Fnacimiento" max="31-12-2010">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label for="Domicilio">Domicilio</label>
+                            <br>
+                            <input type="text" name="Domicilio" size="28">
+                        </td>
+                        <td>
+                            <label for="CP">Codigo Postal</label>
+                            <br>
+                            <input type="number" name="CP" maxlength="5" size="5">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Localidad">Localidad</label>
+                            <br>
+                            <input type="text" name="Localidad" size="15">
+                        </td>
+                        <td>
+                            <label for="Provincia">Provincia</label>
+                            <br>
+                            <select id="Provincia" name="Provincia" size="4">
+                                <option value="Zaragoza">Zaragoza</option>
+                                <option value="Teruel">Teruel</option>
+                                <option value="Huesca">Huesca</option>
+                                <option value="Otros">Otros</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="telefono">telefono</label>
+                            <br>
+                            <input type="tel" id="telefono" name="telefono" placeholder="123-45-67-89">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <fieldset>
+                                <legend>Documentacion presentada</legend>
+                                <input type="checkbox" name="Documentacion" value="Fotocopia DNI" checked>Fotocopia DNI
+                                <br>
+                                <input type="checkbox" name="Documentacion" value="Certificado Académico">Certificado Académico
+                                <br>
+                                <input type="checkbox" name="Documentacion" value="Fotografia">Fotografia
+                            </fieldset>
+                        </td>
+                        <td>
+                            <label for="Tipo de acceso">Tipo de acceso</label>
+                            <br>
+                            <input type="radio" name="Tipo de acceso" value="Directo" checked>
+                            <label for="progamacion">Directo</label><br>
+                            <input type="radio" name="Tipo de acceso" value="Mediante Prueba">
+                            <label for="progamacion">Mediante Prueba</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td>
+                            <input type="submit" value="Enviar">
+                        </td>
+                    </tr>
+            </table>
+        </form>
+    </body>
+</html>
