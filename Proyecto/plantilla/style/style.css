@@ -1,5 +1,6 @@
 body {
 	font: 12px Arial, Tahoma, Verdana, sans-serif;
+	background-color: lightblue;
 }
 
 /* DIV CONTENEDOR GENERAL */
@@ -26,7 +27,7 @@ img {
 -----------------------------------------------------------------------------*/
 #middle {
 	width: 100%;
-    background-color: grey; 
+    background-color: lightyellow; 
     overflow: auto;
 }
 
@@ -34,27 +35,33 @@ img {
     /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
 	width: 790px;
 	float: left;
-    background-color: grey;
+    background-color: lightyellow;
     padding: 10px;
+	margin-top: 20px;
 	margin-bottom: 40px;   
 }
 
 #sideRight {
+	text-align: left;
 	float: left;
 	width: 150px;
-	height: 210px;	
+	height: 227px;	
 	background: #FFACAA;	
 }
 
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
+    background-color: #708090; /* Color de fondo */
+    padding: 10px; /* Espaciado interno */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
+    display: flex; /* Permite la alineación con flexbox */
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+}
+#footer p {
+	width: 100px;
 	text-align: right;
-	padding: 20px;
-    float: left;
-	clear: left;
-	height: 60px;
-	background: lightslategrey;
 }
 /* Realizado hasta aqui */
 
