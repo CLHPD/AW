@@ -5,18 +5,19 @@ body {
 
 /* DIV CONTENEDOR GENERAL */
 #wrapper {
-	width: 960px;
+	width: 85%;
+	height: auto;
 	margin: auto;
 }
 
 /* Header
 -----------------------------------------------------------------------------*/
 header {
-	height: 150px;
+	height: 85%;
 	background: #FFE680;
 	background-image: url(../images/Montaña2.jpg);
 	background-repeat: repeat-x;
-	background-size: 1000px;
+	background-size: 100%;
 }
 img {
 	width: 200px;
@@ -33,7 +34,7 @@ img {
 
 #content {
     /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
-	width: 790px;
+	width: 80%;
 	float: left;
     background-color: lightyellow;
     padding: 10px;
@@ -44,7 +45,7 @@ img {
 #sideRight {
 	text-align: left;
 	float: left;
-	width: 150px;
+	width: 18%;
 	height: 227px;	
 	background: #FFACAA;	
 }
