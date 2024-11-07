@@ -1,6 +1,8 @@
 body {
 	font: 12px Arial, Tahoma, Verdana, sans-serif;
-	background-color: lightblue;
+	background-image: url(../images/Montaña.jpg);
+	background-repeat: repeat-x;
+	background-size: 100%;
 }
 
 /* DIV CONTENEDOR GENERAL */
@@ -14,15 +16,12 @@ body {
 -----------------------------------------------------------------------------*/
 header {
 	height: 85%;
-	background: #FFE680;
-	background-image: url(../images/Montaña2.jpg);
-	background-repeat: repeat-x;
-	background-size: 100%;
 }
 img {
-	width: 200px;
-	height: 150px;
-	padding-left: 30px;
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	height: 200px;
 }
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -34,18 +33,17 @@ img {
 
 #content {
     /*Si no asociamos anchura al content intenta coger el 100% y se coloca en una línea diferente a la del #sideRight*/
-	width: 80%;
+	width: 75%;
 	float: left;
     background-color: lightyellow;
     padding: 10px;
 	margin-top: 20px;
-	margin-bottom: 40px;   
 }
 
 #sideRight {
 	text-align: left;
-	float: left;
-	width: 18%;
+	float: right;
+	width: 20%;
 	height: 227px;	
 	background: #FFACAA;	
 }
