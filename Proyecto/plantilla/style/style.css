@@ -39,6 +39,11 @@ img {
     padding: 10px;
 	margin-top: 20px;
 }
+#content img {
+	width: 350px;
+	height: 200px;
+	margin-right: 600px;
+}
 
 #sideRight {
 	text-align: left;
