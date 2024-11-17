@@ -39,6 +39,22 @@ img {
     padding: 10px;
 	margin-top: 20px;
 }
+.galeria {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+	gap: 10px; /* Espacio entre las imágenes */
+  }
+  
+.foto img {
+	height: auto; /* Mantiene la proporción de las imágenes */
+	border-radius: 8px; /* Esquinas redondeadas */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+.foto img:hover {
+	transform: scale(1.05); /* Efecto de zoom */
+	transition: transform 0.3s ease-in-out;
+}
 #content img {
 	width: 350px;
 	height: 200px;
