@@ -1,0 +1,10 @@
+var numero1;
+var numero2;
+var resta;
+numero1 = prompt("Escriba un numero");
+numero2 = prompt("Escriba otro numero");
+document.writeln(numero1 + numero2);
+document.writeln(numero1 - numero2);
+document.writeln(numero1 * numero2);
+document.writeln(numero1 / numero2);
+document.writeln(numero1 % numero2);
