@@ -39,20 +39,130 @@ img {
     padding: 10px;
 	margin-top: 20px;
 }
+table {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+th, td {
+	border: 1px solid black;
+	padding: 8px;
+}
+th {
+	background-color: #99CCFF;
+}
+tr:hover {
+	background-color: #D3D3D3; /* Cambia el color al pasar el ratón */
+}
+caption {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.titulo{
+	text-align: center; /* Centra el texto horizontalmente */
+	font-size: 32px; /* Tamaño del texto del título */
+	margin-bottom: 20px; /* Espacio debajo del título */
+}
+#tformigal p {
+	border-top: 2px solid #007bff; /* Borde superior */
+ 	border-bottom: 2px solid #007bff; /* Borde inferior */
+	padding: 10px; /* Espaciado interno */
+	margin: 20px auto; /* Centrar el párrafo en la página */
+	max-width: 800px; /* Ancho máximo del párrafo */
+	font-size: 18px; /* Tamaño del texto */
+	line-height: 24px; /* Espaciado entre líneas */
+}
+.form-container {
+	background-color: #a9d4e8;
+	border: 1px solid #007ba7;
+	border-radius: 10px;
+	padding: 20px;
+	max-width: 700px;
+	margin: auto;
+  }
+
+  .form-container h2 {
+	text-align: center;
+	color: #004d73;
+  }
+
+  fieldset {
+	border: 1px solid #004d73;
+	border-radius: 8px;
+	padding: 15px;
+	margin-bottom: 20px;
+  }
+
+  legend {
+	font-weight: bold;
+	color: #004d73;
+  }
+
+  label {
+
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #003a57;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select,
+  textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid #007ba7;
+	border-radius: 5px;
+	box-sizing: border-box;
+  }
+
+  textarea {
+	resize: none;
+	height: 80px;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+	margin-right: 5px;
+  }
+
+  .form-buttons {
+	text-align: center;
+  }
+
+  button {
+	background-color: #004d73;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 0 10px;
+  }
+
+  button:hover {
+	background-color: #007ba7;
+  }
 .galeria {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
-	gap: 10px; /* Espacio entre las imágenes */
-  }
-  
+	gap: 0; /* Sin espacio entre columnas o filas */
+	padding: 0;
+	margin: auto; /* Centrar la galería */
+  }  
+
 .foto img {
 	height: auto; /* Mantiene la proporción de las imágenes */
 	border-radius: 8px; /* Esquinas redondeadas */
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+	display: block; /* Elimina los espacios adicionales entre imágenes */
   }
   
 .foto img:hover {
-	transform: scale(1.05); /* Efecto de zoom */
+	transform: scale(1.30); /* Efecto de zoom */
 	transition: transform 0.3s ease-in-out;
 }
 #content img {
