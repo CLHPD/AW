@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <table class="tabla" border="1">
+        <tr>
+            <th>Clase</th>
+            <th>Bits iniciales</th>
+            <th>Intervalo (*)</th>
+            <th>N.º de redes</th>
+            <th>N.º de direcciones por red</th>
+            <th>N.º de hosts por red(<sup>‡</sup>)</th>
+            <th><a href="/wiki/M%C3%A1scara_de_red" title="Máscara de red">Máscara de red</a></th>
+            <th><a href="/wiki/Broadcast_(inform%C3%A1tica)" class="mw-redirect" title="Broadcast (informática)">Dirección de <i>broadcast</i></a>
+            </th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>0</td>
+            <td>0.0.0.0 (**) - 127.255.255.255 (<sup>†</sup>)</td>
+            <td>128</td>
+            <td>16 777 216</td>
+            <td>16 777 214</td>
+            <td>255.0.0.0</td>
+            <td>x.255.255.255
+            </td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>10</td>
+            <td>128.0.0.0 - 191.255.255.255</td>
+            <td>16 382</td>
+            <td>65 536</td>
+            <td>65 534</td>
+            <td>255.255.0.0</td>
+            <td>x.x.255.255
+            </td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>110</td>
+            <td>192.0.0.0 - 223.255.255.255</td>
+            <td>2 097 150</td>
+            <td>256</td>
+            <td>254</td>
+            <td>255.255.255.0</td>
+            <td>x.x.x.255
+            </td>
+        </tr>
+        <tr>
+            <td>D (Multicast)</td>
+            <td>1110</td>
+            <td>224.0.0.0 - 239.255.255.255</td>
+            <td rowspan="2" colspan="5">Sin informacion</td>
+        </tr>
+        <tr>
+            <td>E (experimental)</td>
+            <td>1111</td>
+            <td>240.0.0.0 - 255.255.255.254</td>
+        </tr>
+    </table>
+</body>
+</html>

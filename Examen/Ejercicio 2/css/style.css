@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+}
+th{
+    background-color: #98908d;
+    color: #ffffff;
+    padding: 3px;
+}
+tr {
+    background-color: lightsalmon;
+}
+tr:nth-child(odd){background-color: lightgreen;}
+tr:hover {
+    background-color: black;
+    color: white;
+}

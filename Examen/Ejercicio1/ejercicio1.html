@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejer1</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css"> 
+    </head>
+    <body>
+            <fieldset>
+                <legend>FORMULARIO DE REGISTRO DE ESTUDIOS DE INFORMATICA</legend>
+                <lable for="ciclo">Elige el ciclo en el que vas a matricularte:</lable>
+                <br>
+                <input type="radio" name="ciclo" value="ciclo">
+                <label for="ciclo">SMR</label><br>
+                <input type="radio" name="ciclo" value="ciclo">
+                <label for="ciclo">ASIR</label><br>
+                <input type="radio" name="ciclo" value="ciclo">
+                <label for="ciclo">DAM</label><br>
+                <input type="radio" name="ciclo" value="ciclo">
+                <label for="ciclo">DAW</label><br>
+                <label for="estudios">Elige los estudios que has cursado anteriormente:</label>
+                <br>
+                <select id="estudios" name="estudios" size="3">
+                    <option value="ESO">ESO</option>
+                    <option value="FPB">FPB</option>
+                    <option value="Grado Medio">Grado Medio</option>
+                    <option value="Grado Superior">Grado Superior</option>
+                    <option value="Bachillerato">Bachillerato</option>
+                </select>
+                <br>
+                <label for="acceso">Procedimiento de acceso:</label>
+                <br>
+                <input list="acceso" name="acceso" multiple>
+                <datalist id="acceso">
+                    <option value="Prueba de acceso">
+                    <option value="mayores de 25 años">
+                    <option value="ciclo FP">
+                    <option value="Bachillerato">
+                </datalist>
+                <br>
+                <label for="fecha">Elija la fecha de matriculacion:</label>
+                <input type="date" name="fecha">
+                <br>
+                <textarea name="fecha" rows="10" cols="55" placeholder="Comentarios de la matricula"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>DATOS PERSONALES</legend>
+                <label for="Nombre">Nombre:*</label>
+                <br>
+                <input type="text" id="Nombre" required size="45">
+                <br>
+                <label for="Apellido">Apellido:*</label>
+                <br>
+                <input type="text" id="Apellido" size="60">
+                <br>
+                <label for="telefono">Telefono:*</label>
+                <br>
+                <input type="tel" id="telefono" name="telefono" max="9">
+            </fieldset>
+    </body>
+</html>
