@@ -52,7 +52,7 @@ th {
 	background-color: #99CCFF;
 }
 tr:hover {
-	background-color: #D3D3D3; /* Cambia el color al pasar el ratón */
+	background-color: #D3D3D3; 
 }
 caption {
 	font-size: 1.5em;
@@ -60,18 +60,18 @@ caption {
 }
 
 .titulo{
-	text-align: center; /* Centra el texto horizontalmente */
-	font-size: 32px; /* Tamaño del texto del título */
-	margin-bottom: 20px; /* Espacio debajo del título */
+	text-align: center; 
+	font-size: 32px; 
+	margin-bottom: 20px; 
 }
 #tformigal p {
-	border-top: 2px solid #007bff; /* Borde superior */
- 	border-bottom: 2px solid #007bff; /* Borde inferior */
-	padding: 10px; /* Espaciado interno */
-	margin: 20px auto; /* Centrar el párrafo en la página */
-	max-width: 800px; /* Ancho máximo del párrafo */
-	font-size: 18px; /* Tamaño del texto */
-	line-height: 24px; /* Espaciado entre líneas */
+	border-top: 2px solid #007bff; 
+ 	border-bottom: 2px solid #007bff; 
+	padding: 10px; 
+	margin: 20px auto; 
+	max-width: 800px; 
+	font-size: 18px; 
+	line-height: 24px; 
 }
 .form-container {
 	background-color: #a9d4e8;
@@ -149,16 +149,16 @@ caption {
 .galeria {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
-	gap: 0; /* Sin espacio entre columnas o filas */
+	gap: 0; 
 	padding: 0;
-	margin: auto; /* Centrar la galería */
+	margin: auto; 
   }  
 
 .foto img {
-	height: auto; /* Mantiene la proporción de las imágenes */
+	height: auto; 
 	border-radius: 8px; /* Esquinas redondeadas */
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-	display: block; /* Elimina los espacios adicionales entre imágenes */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+	display: block; 
   }
   
 .foto img:hover {
@@ -175,11 +175,11 @@ caption {
 	padding: 0;
 }
 .clist li{
-	background-image: url(../images/flecha.jpg); /* Ruta de la imagen */
-	background-size: 20px 20px; /* Ajusta el tamaño del ícono */
+	background-image: url(../images/flecha.jpg); 
+	background-size: 20px 20px; /
 	background-repeat: no-repeat;
-	background-position: 0 50%; /* Posición horizontal y vertical */
-	padding-left: 30px; /* Espacio para que el texto no se sobreponga a la imagen */
+	background-position: 0 50%; 
+	padding-left: 30px; 
 }
 
 #sideRight {
@@ -193,16 +193,15 @@ caption {
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
-    background-color: #708090; /* Color de fondo */
-    padding: 10px; /* Espaciado interno */
-    width: 100%; /* Asegura que ocupe todo el ancho */
-    box-sizing: border-box; /* Incluye padding en el cálculo del ancho */
-    display: flex; /* Permite la alineación con flexbox */
-    justify-content: flex-end; /* Alinea el contenido a la derecha */
-}
+    background-color: #708090; 
+    padding: 10px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    display: flex; 
+    justify-content: flex-end; 
 #footer p {
 	width: 100px;
 	text-align: right;
 }
-/* Realizado hasta aqui */
+
 
