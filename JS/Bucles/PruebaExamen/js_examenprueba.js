@@ -1,16 +1,12 @@
 var suma = 0;
 var numero;
-
-while (true) {
+while (numero != 0) {
   numero = prompt("Ingresa el precio de articulo (o 0 para terminar):");
-  numero = parseFloat(numero);
-  if (numero === 0) {
-    break;
-  }
+  numero = parseInt(numero);
   if (isNaN(numero) || numero < 0) {
     alert("Por favor ingresa un número válido y positivo.");
-    continue;
+  } else {
+    suma = suma + numero;
   }
-  suma += numero;
 }
-alert("La suma de los números es: " + suma);
+alert("La suma de los precios es: " + suma);
